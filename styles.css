@@ -6,11 +6,12 @@ body {
 
 }
 
-/* .container {
+.container {
     width: 800px;
     height: 800px;
     display: grid;
-  } */
+}
+
 .card {
     background-color: hsl(216, 50%, 16%);
 }
@@ -41,18 +42,20 @@ p {
     font-size: 18px;
     font-weight: 400;
     font-family:'Outfit', sans-serif;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .img1 {
     color: hsl(178, 100%, 50%);
     display: flex;
-    float: left;
+    /* float: left; */
 }
 
 .img2 {
     color: hsl(215, 51%, 70%);
     display: flex;
-    float: right;
+    /* float: right; */
 }
 
 .img3 {
