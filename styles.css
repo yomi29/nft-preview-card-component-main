@@ -1,0 +1,72 @@
+body {
+    background-color: hsl(217 54% 11%);
+}
+
+@media(min-width: 375px) and (max-width: 1440px) {
+
+}
+
+/* .container {
+    width: 800px;
+    height: 800px;
+    display: grid;
+  } */
+.card {
+    background-color: hsl(216, 50%, 16%);
+}
+.img-fluid {
+    border-radius: 10px;
+}
+
+.hover:hover {
+    color: hsl(178, 100%, 50%) !important;
+}
+
+h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    font-family:'Outfit', sans-serif;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+    font-family:'Outfit', sans-serif;
+}
+
+.flex-container {
+    font-size: 18px;
+    font-weight: 400;
+    font-family:'Outfit', sans-serif;
+}
+
+.img1 {
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    float: left;
+}
+
+.img2 {
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    float: right;
+}
+
+.img3 {
+    font-size: 16px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    font-family:'Outfit', sans-serif;
+}
+
+.img {
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.border-bottom {
+    color: white;
+}
