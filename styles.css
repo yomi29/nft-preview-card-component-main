@@ -6,11 +6,11 @@ body {
 
 }
 
-.container {
+/* .container {
     width: 800px;
     height: 800px;
     display: grid;
-}
+} */
 
 .card {
     background-color: hsl(216, 50%, 16%);
@@ -42,6 +42,7 @@ p {
     font-size: 18px;
     font-weight: 400;
     font-family:'Outfit', sans-serif;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
