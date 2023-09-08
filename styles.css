@@ -6,12 +6,12 @@ body {
 
 }
 
-/* .container {
-    width: 800px;
-    height: 800px;
-    display: grid;
-} */
-
+.container {
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
 .card {
     background-color: hsl(216, 50%, 16%);
 }
