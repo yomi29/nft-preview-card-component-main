@@ -50,8 +50,8 @@ p {
     align-items: center;
 }
 
-.img1 {
-    /* color: hsl(178, 100%, 50%); */
+.text1 {
+    color: hsl(178, 100%, 50%);
 }
 .img1 img {
     /* color: hsl(178, 100%, 50%); */
@@ -76,5 +76,6 @@ p {
 }
 
 .border-bottom {
-    color: white;
+    border-color: hsl(215, 51%, 70%);
+    border-width: 0.1px;
 }
