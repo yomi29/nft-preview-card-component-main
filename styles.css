@@ -1,5 +1,11 @@
 body {
+     font-family:'Outfit', sans-serif;
     background-color: hsl(217 54% 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 @media(min-width: 375px) and (max-width: 1440px) {
@@ -8,14 +14,11 @@ body {
 
 .container {
     margin-top: 10px;
-    justify-content: center;
-    align-items: center;
     border-radius: 20px;
 }
 .card {
     background-color: hsl(216, 50%, 16%);
-    justify-content: center;
-    align-items: center;
+    height: 100%;
 }
 .img-fluid {
     border-radius: 10px;
@@ -30,7 +33,6 @@ h3 {
     font-size: 18px;
     font-weight: 600;
     color: #fff;
-    font-family:'Outfit', sans-serif;
 }
 
 p {
@@ -38,35 +40,34 @@ p {
     font-weight: 400;
     margin-top: 10px;
     color: hsl(215, 51%, 70%);
-    font-family:'Outfit', sans-serif;
 }
 
 .flex-container {
     font-size: 18px;
     font-weight: 400;
-    font-family:'Outfit', sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .img1 {
-    color: hsl(178, 100%, 50%);
-    display: flex;
-    /* float: left; */
+    /* color: hsl(178, 100%, 50%); */
 }
-
-.img2 {
-    color: hsl(215, 51%, 70%);
-    display: flex;
-    /* float: right; */
+.img1 img {
+    /* color: hsl(178, 100%, 50%); */
+    display: block;
+    width: 15px;
+    height: 15px;
+    object-fit: contain;
+}
+.img1 p {
+   margin-block: 0;
 }
 
 .img3 {
     font-size: 16px;
     font-weight: 300;
     color: hsl(215, 51%, 70%);
-    font-family:'Outfit', sans-serif;
 }
 
 .img {
